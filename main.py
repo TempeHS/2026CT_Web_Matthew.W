@@ -3,10 +3,15 @@ from flask import render_template
 
 app = Flask(__name__)
 
+@app.route('/index.html')
 @app.route('/')
-def hello_world():
-    backend_data = "Rock Paper Scissors"
-    return render_template ("index.html", front_end_data = backend_data), 200
+def index ():
+    card_data=(
+        ("Offensive class", "These classes are the main grunt of your team, they are meant to be the ones that are doig the dirty work. These classes are: Scout, ", "Button Text", "static/images/logo.png")
+        ("title", "description", "Button Text", "static/images/logo.png")
+        ("title", "description", "Button Text", "static/images/logo.png")
+    )
+    return render_template("index.html", cards=card_data), 200
 
 if __name__ == '__main__':
     app.run(debug=True)
