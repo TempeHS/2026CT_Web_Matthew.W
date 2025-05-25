@@ -7,9 +7,9 @@ app = Flask(__name__)
 @app.route('/')
 def index ():
     card_data=(
-        ("Offensive class", "These classes are the main grunt of your team, they are meant to be the ones that are doig the dirty work. These classes are: Scout, ", "Button Text", "static/images/logo.png")
-        ("title", "description", "Button Text", "static/images/logo.png")
-        ("title", "description", "Button Text", "static/images/logo.png")
+        ("Offensive class", "These classes are the main grunt of your team, they are meant to be the ones that are doig the dirty work. These classes are: Scout, ", "Button Text", "static/images/logo.png"),
+        ("title", "description", "Button Text", "static/images/logo.png"),
+        ("title", "description", "Button Text", "static/images/logo.png"),
     )
     return render_template("index.html", cards=card_data), 200
 

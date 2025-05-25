@@ -5,6 +5,5 @@
   background-color: rgb(255, 255, 255);
 }
 .carousel-inner img {
-  height: 400px;
-  width: fit-content;
+  aspect-ratio: 16/9;
 }
