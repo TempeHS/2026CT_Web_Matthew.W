@@ -21,5 +21,13 @@ def index ():
 def contact():
     return render_template("contact.html"), 200
 
+@app.route('/tips.html')
+def tips():
+    return render_template("tips.html"), 200
+
+@app.route('/checkout.html')
+def checkout():
+    return render_template("checkout.html"), 200
+
 if __name__ == '__main__':
     app.run(debug=True)

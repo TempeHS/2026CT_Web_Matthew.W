@@ -2,7 +2,7 @@
   height: 80px;
 }
 .container-fluid {
-  background-color: rgb(255, 255, 255);
+  background-color: white;
 }
 .carousel-inner img {
   aspect-ratio: 32/15;
