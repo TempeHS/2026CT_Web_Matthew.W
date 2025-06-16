@@ -1,26 +1,9 @@
 .navbar-brand img {
   height: 80px;
 }
-.container-fluid {
-  background: linear-gradient(
-    90deg,
-    #790707,
-    #8b1917,
-    #9e2724,
-    #b13532,
-    #c4423f,
-    #d74f4d,
-    #eb5d5c,
-    #ff6a6a
-  );
-}
 .carousel-inner img {
   aspect-ratio: 32/15;
 }
-@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
-body {
-  font-family: "Lexend Deca", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
+.navbar {
+  background-color: #333333;
 }
