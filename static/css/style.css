@@ -5,5 +5,16 @@
   aspect-ratio: 32/15;
 }
 .navbar {
-  background-color: #333333;
+  background-color: #ffffff;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oxanium:wght@200..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+.basic-3 {
+  background: linear-gradient(currentColor 0 0) bottom / var(--d, 0) 3px
+    no-repeat;
+  transition: 0.5s;
+}
+.basic-3:hover {
+  --d: 100%;
 }
