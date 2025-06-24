@@ -19,8 +19,6 @@
   --d: 100%;
 }
 
-.big-card {
-  transform: scale (5.75);
-  z-index: 1;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+.custom-hr {
+  border-top: 4px solid #000000;
 }
