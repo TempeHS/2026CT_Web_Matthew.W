@@ -4,9 +4,6 @@
 .carousel-inner img {
   aspect-ratio: 32/15;
 }
-.navbar {
-  background-color: #ffffff;
-}
 
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oxanium:wght@200..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
 
@@ -21,4 +18,45 @@
 
 .custom-hr {
   border-top: 4px solid #000000;
+}
+
+.pricing-card {
+  transition: all 0.3s ease;
+  border: none;
+  background: linear-gradient(145deg, #ffffff, #f5f5f5);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+.pricing-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.feature-list li {
+  padding: 8px 0;
+  position: relative;
+}
+
+.popular-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  transform: rotate(15deg);
+}
+
+.btn-custom {
+  background: linear-gradient(45deg, #6c5ce7, #a363d9);
+  border: none;
+  padding: 12px 30px;
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(108, 92, 231, 0.4);
+}
+
+.signup-bg {
+  background-color: rgb(255, 225, 191);
+  padding: 40px;
 }
