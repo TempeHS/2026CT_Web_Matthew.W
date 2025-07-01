@@ -45,7 +45,7 @@
 }
 
 .btn-custom {
-  background: linear-gradient(45deg, #6c5ce7, #a363d9);
+  background: linear-gradient(45deg, #ff7b00, #a363d9);
   border: none;
   padding: 12px 30px;
   transition: all 0.3s ease;
@@ -53,10 +53,39 @@
 
 .btn-custom:hover {
   transform: scale(1.05);
-  box-shadow: 0 5px 15px rgba(108, 92, 231, 0.4);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
 }
 
 .signup-bg {
   background-color: rgb(255, 225, 191);
   padding: 40px;
+}
+
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #fccb90;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to right,
+    #ee7724,
+    #ffbe30,
+    #f8c331,
+    #ffc400
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #ff4931, #fc6f12, #ff8b3e, #f8a100);
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
+  }
+}
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+  }
 }
