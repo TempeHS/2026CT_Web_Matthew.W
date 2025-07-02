@@ -89,3 +89,7 @@
     border-bottom-right-radius: 0.3rem;
   }
 }
+
+hr {
+  border-top: 4px solid #312d28;
+}
